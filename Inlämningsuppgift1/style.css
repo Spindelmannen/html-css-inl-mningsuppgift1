@@ -1,0 +1,239 @@
+body {
+    background: #ee9ca7; 
+    background: -webkit-linear-gradient(bottom, #ee9ca7, #f7e7e9);
+    background-color: pink;
+    
+}
+
+header {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-image:url(img/pexels-nicole-michalou-5779170.jpg);
+    border-radius: 10px 10px 0 0;
+    
+}
+hr {
+    display: block;
+    margin-top: 0.0em;
+    margin-bottom: 0.0em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: rgba(255, 19, 19, 0.726);
+    border-radius: 0 0 10px 10px;
+}
+
+div.h1 {
+    background-color: rgba(255, 255, 255, 0.644);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+h1, h2, h3 {
+    
+    
+    font-family: 'Mountains of Christmas', cursive;
+    color:rgba(255, 19, 19, 0.726);
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+h2.message, h2.aside {
+    text-decoration: 5px underline whitesmoke;
+    color:rgba(4, 180, 4, 0.733);
+    
+}
+
+h1 {
+    letter-spacing: 5px;
+    word-spacing: 40px;
+    font-size: 85px;
+}
+
+p, a {
+    font-size: 18px;
+    font-family: 'Permanent Marker', cursive;
+    color:rgba(105, 60, 1, 0.507);
+}
+
+p.aside-p {
+    font-size: 15px;
+
+}
+
+
+
+div.maincontent {
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-self: flex-start;
+    align-self: flex-start;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* background-color: aqua;  */
+    flex-wrap: nowrap;
+    
+    padding: 1% 0% 0 0;
+}
+
+main {
+    width: 70%;
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 3% 0 1%;
+    flex-wrap: wrap;
+    
+}
+
+article.recept:hover, header:hover, div.aside:hover, footer:hover {
+    background-color: rgba(119, 119, 119, 0.356);
+}
+
+article.recept {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0% 0% 1% 0%;
+    /* background-color: burlywood; */
+    border: 7px rgba(247, 16, 16, 0.726) groove;
+    border-radius: 20px;
+    padding: 5px 0px 5px 0px;
+    background-color: rgba(238, 149, 149, 0.356);
+    
+}
+
+
+
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    font-size: 15px;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Yuji Mai', serif;
+    color: green;
+    font-weight: 700;
+}
+
+ol {
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Mountains of Christmas', cursive;
+    font-family: 'Yuji Mai', serif;
+    color: green;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+div.top1ul, div.top1ol, div.breadtext {
+width: 300px;
+background: #abbaab;
+background: -webkit-linear-gradient(bottom, #ee9ca7, #ffffff); 
+border-radius: 30px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+padding: 0% 2% 0% 2%;
+margin: 0 0 1% 0;
+
+
+}
+
+div.breadtext{
+    margin-top: 20px;
+}
+
+
+
+img {
+    
+    border-radius: 30px;
+}
+
+
+
+aside {
+    width: 350px;
+    height: 100%;
+    margin: 0% 0 0% 0%;
+    
+}
+
+div.aside {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 15px;
+    border: 3px whitesmoke inset;
+    border-radius: 15px;
+    margin: 0 0% 0 0;
+
+    /* background-color: chartreuse; */
+}
+div.asidecontent {
+    width: 90%;
+    height: 100%;
+    background: #abbaab;
+    background: -webkit-linear-gradient(bottom, #ee9ca7, #ffffff); 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin: 10% 0 10% 0;
+    border-radius: 15px;
+    border: 3px whitesmoke inset;
+}
+
+
+footer {
+    height: 300px;
+    width: 100%;
+    
+    margin: 1% 0 0 0;
+}
+
+div.footercontent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.footerbox {
+    height: 300px;
+    width: 33%;
+    background: #abbaab;
+    background: -webkit-linear-gradient(top, #549166, #ffffff); 
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div.top1ul:hover, div.top1ol:hover, div.breadtext:hover {
+    box-shadow: 5px -5px 5px rgba(255, 255, 255, 0.74);
+    
+}
